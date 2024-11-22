@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteRepositoriesConfiguration">
+    <remote-repository>
+      <option name="id" value="roxor-gp-maven" />
+      <option name="name" value="Roxor Games Platform build repository" />
+      <option name="url" value="https://gamesys.jfrog.io/artifactory/roxor-gp-maven" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="gamesys-pe-maven-build" />
+      <option name="name" value="Roxor Games Platform build repository - dev" />
+      <option name="url" value="https://gamesys.jfrog.io/artifactory/gamesys-pe-maven-build" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Central Repository" />
+      <option name="url" value="https://repo.maven.apache.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Maven Central repository" />
+      <option name="url" value="https://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jboss.community" />
+      <option name="name" value="JBoss Community repository" />
+      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="gitlab-maven" />
+      <option name="name" value="gitlab-maven" />
+      <option name="url" value="https://gitlab.com/api/v4/groups/8410975/-/packages/maven" />
+    </remote-repository>
+  </component>
+</project>
