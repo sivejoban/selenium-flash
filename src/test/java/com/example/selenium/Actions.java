@@ -131,20 +131,14 @@ public void buildOwnExpensive(){
     driver.findElement(Elements.AddOwnExpensive).click();
     driver.findElement(Elements.DesktopsAgain2).click();
     driver.findElement(Elements.Cart).click();
+    driver.findElement(Elements.terms).click();
+
 }
 
 
-    public double getCartTotalPrice() {
-        // Locate the total price element on the cart page
-        WebElement totalPriceElement = driver.findElement(By.className("cart-total-left"));  // Update with actual locator
-
-        // Extract the price as a string
-        String totalPriceText = totalPriceElement.getText();
-
-        // Remove any currency symbols or extra characters, then convert to double
-        totalPriceText = totalPriceText.replaceAll("[^\\d.]", "");  // This will remove any non-numeric characters (e.g., $)
-        return Double.parseDouble(totalPriceText);  // Convert the cleaned string to a double
-    }
+public void checkout(){
+    driver.findElement(Elements.checkout).click();
+}
 
 
 

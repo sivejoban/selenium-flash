@@ -43,17 +43,9 @@ public class TestingPagesTest {
          Actions.loginMenu();
          Actions.login_User("tingolomzi@size.com");
          Actions.user_Pass("amandawwe12");
-         try {
-             Thread.sleep(5000);
-         } catch (InterruptedException e) {
-             e.printStackTrace();
-         }
+         Thread.sleep(5000);
         Actions.login_Inside();
-         try {
-             Thread.sleep(5000);
-         } catch (InterruptedException e) {
-             e.printStackTrace();
-         }
+        Thread.sleep(5000);
          Alert alert = driver.switchTo().alert();
          alert.accept();
          Actions.computers_tab();
@@ -66,7 +58,10 @@ public class TestingPagesTest {
          Actions.buildYourOwn();
          Actions.buildOwnCheap();
          Actions.buildOwnExpensive();
-         Actions.getCartTotalPrice();
+         Thread.sleep(5000);
+         Actions.checkout();
+
+
 
 
     }

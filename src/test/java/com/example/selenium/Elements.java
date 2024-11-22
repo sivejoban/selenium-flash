@@ -50,6 +50,12 @@ public class Elements {
     public static final By BuildOwnExpensive = By.linkText("Build your own expensive computer");
     public static final By AddOwnExpensive = By.id("add-to-cart-button-74");
     public static final By Cart = By.linkText("Shopping cart");
+    public static final By terms = By.id("termsofservice");
+    public static final By checkout = By.id("checkout");
+
+
+
+
 
 
 
