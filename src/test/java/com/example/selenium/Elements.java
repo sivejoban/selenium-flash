@@ -23,7 +23,7 @@ public class Elements {
    public static final By Login_Button = By.className("ico-login");
    public static final By Username_Text = By.name("Email");
    public static final By Password_Text = By.name("Password");
-   public static final By Login_inside = By.className("button-1");
+   public static final By Login_inside = By.xpath("//input[@type='submit' and @value='Log in']");
    public static final By Computers_Tab = By.linkText("Computers");
    public static final By Desktops = By.linkText("Desktops");
 
@@ -51,7 +51,18 @@ public class Elements {
     public static final By AddOwnExpensive = By.id("add-to-cart-button-74");
     public static final By Cart = By.linkText("Shopping cart");
     public static final By terms = By.id("termsofservice");
-    public static final By checkout = By.id("checkout");
+    public static final By checkout = By.name("checkout");
+    public static final By continueButton = By.xpath("//*[@id='billing-buttons-container']/input");
+    public static final By continueButton2 = By.cssSelector(".button-1.new-address-next-step-button");
+
+//*[@id="shipping-buttons-container"]/input
+
+
+
+
+
+
+
 
 
 

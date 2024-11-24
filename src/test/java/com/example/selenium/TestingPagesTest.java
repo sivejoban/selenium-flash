@@ -46,8 +46,6 @@ public class TestingPagesTest {
          Thread.sleep(5000);
         Actions.login_Inside();
         Thread.sleep(5000);
-         Alert alert = driver.switchTo().alert();
-         alert.accept();
          Actions.computers_tab();
          Actions.desktops();
          Thread.sleep(5000);
@@ -58,7 +56,7 @@ public class TestingPagesTest {
          Actions.buildYourOwn();
          Actions.buildOwnCheap();
          Actions.buildOwnExpensive();
-         Thread.sleep(5000);
+        Thread.sleep(5000);
          Actions.checkout();
 
 

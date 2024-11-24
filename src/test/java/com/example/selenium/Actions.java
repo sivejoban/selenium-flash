@@ -138,6 +138,8 @@ public void buildOwnExpensive(){
 
 public void checkout(){
     driver.findElement(Elements.checkout).click();
+    driver.findElement(Elements.continueButton).click();
+    driver.findElement(Elements.continueButton2).click();
 }
 
 
